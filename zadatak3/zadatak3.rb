@@ -83,8 +83,8 @@ class Slika
         slika[redakIznad][tockaPcopy[1]] = "X"
         tockaPcopy[0] = redakIznad
         traziIznad(slika, brRedaka, brStupaca, tockaPcopy)
-        traziLijevo(slika, brRedaka, brStupaca, tockaP)
-        traziDesno(slika, brRedaka, brStupaca, tockaP)
+        traziLijevo(slika, brRedaka, brStupaca, tockaPcopy)
+        traziDesno(slika, brRedaka, brStupaca, tockaPcopy)
       end 
     end
   end
@@ -97,8 +97,8 @@ class Slika
         slika[redakIspod][tockaPcopy[1]] = "X"
         tockaPcopy[0] = redakIspod
         traziIspod(slika, brRedaka, brStupaca, tockaPcopy)
-        traziLijevo(slika, brRedaka, brStupaca, tockaP)
-        traziDesno(slika, brRedaka, brStupaca, tockaP)
+        traziLijevo(slika, brRedaka, brStupaca, tockaPcopy)
+        traziDesno(slika, brRedaka, brStupaca, tockaPcopy)
       end 
     end
   end
